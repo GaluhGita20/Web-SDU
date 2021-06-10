@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\web-SDU\resources\views/home.blade.php ENDPATH**/ ?>
