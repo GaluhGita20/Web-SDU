@@ -1,1 +1,0 @@
-Hello World!!<?php /**PATH C:\xampp\htdocs\web-SDU\resources\views/menu.blade.php ENDPATH**/ ?>
