@@ -1,0 +1,3 @@
+- Create the CKEditor v5 plugin.
+- Complete README with an explanation and usages.
+- Add developer documentation.

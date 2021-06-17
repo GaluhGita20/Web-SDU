@@ -1,0 +1,44 @@
+@import "breakpoint";
+
+$tab: 768px;
+
+body:not(.cke_editable) {
+
+  .ck-responsive-table {
+
+    thead {
+      display: none;
+
+      @include breakpoint ($tab) {
+        display: table-header-group;
+      }
+    }
+
+    tbody {
+      tr {
+        display: block;
+
+        @include breakpoint ($tab) {
+          display: table-row;
+        }
+
+        td {
+          display: block;
+
+          @include breakpoint ($tab) {
+            display: table-cell;
+          }
+
+          &:before {
+            content: attr(data-label);
+
+            @include breakpoint ($tab) {
+              content: none;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
